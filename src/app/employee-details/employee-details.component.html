@@ -1,0 +1,11 @@
+<div class="card" style="width: 40rem" *ngIf="employee">
+  <div class="card-body">
+    <h5 class="card-title">Details of Employee:</h5>
+    <p class="card-text">First Name: {{ employee.firstName }}</p>
+    <p class="card-text">First Name: {{ employee.lastName }}</p>
+    <p class="card-text">First Name: {{ employee.emailId }}</p>
+    <button type="button" class="btn btn-warning" (click)="onClose()">
+      Return to main list
+    </button>
+  </div>
+</div>
